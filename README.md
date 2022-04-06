@@ -2,4 +2,5 @@
 
 SPA with spaceX launches. Filter by name, date and status. Alphabetical and chronological order. It allows to see the detail of each launch.
 
-Made with vite💘 by Ignacio Napal
+Made with vite⚡ by Ignacio Napal
+Deployed in Vercel: https://spacex-launches-nachonapal.vercel.app/
