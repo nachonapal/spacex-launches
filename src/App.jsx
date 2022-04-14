@@ -19,9 +19,9 @@ export const App = () => {
         SpaceX Launches
       </Heading>
       <section>
-        {launches.map((launch) => (
-          <LaunchItem {...launch} key={launch.id} />
-        ))}
+        {launches.length > 0
+          ? launches.map((launch) => <LaunchItem {...launch} key={launch.id} />)
+          : "Loading..."}
       </section>
     </>
   );
