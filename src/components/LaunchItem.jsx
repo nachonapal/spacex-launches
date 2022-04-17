@@ -23,7 +23,7 @@ export function LaunchItem(launch) {
             {format(new Date(launch.date_utc), "MMMM d, yyyy")}
           </Text>
         </Flex>
-        <Button mt={4} colorScheme="twitter">
+        <Button mt={4} colorScheme="facebook">
           More Details
         </Button>
       </Box>
